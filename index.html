@@ -8,15 +8,24 @@
     <link rel="stylesheet" href="style.css">
   </head>
   <body>
+    <form id="name-form">
+      <label for="firstName">Please enter your first name:</label>
+      <input type="text" id="firstName" placeholder="your name" required />
+      <button type="button" id="enterBtn">Submit</button>
+  
+    
+    <p>User's first name: <span id="userInput"></span></p>
     <div class="todo-container">
       <img src="to do list.png" alt="Todo List" class="header-image">
         <h1>Todo List</h1>
-        <from>
+        <form>
         <div class="input-container">
             <input type="text" id="todo-input" placeholder="Add a new task">
             <button id="add-todo-btn">Add</button>
         </div>
-        </from>
+         <div>Total Tasks: <span id="totalTasks">0</span></div>
+        <div>Completed Tasks: <span id="completedTasks">0</span></div>
+
         <ul id="todo-list">
         </ul>
     </div>
