@@ -1,53 +1,38 @@
-# Todo App
+# Todo List Application
+This is a simple and interactive Todo List web application, where users can add, edit, delete, and mark tasks as completed. The app also remembers the user's name and tasks using localStorage, making the data persist even after refreshing the page.
 
-This project aims to build a to do list application by applying HTML, CSS and Javascript. The application allows users to manage their tasks effectively.
+# Features
+- Add Tasks: Users can input new tasks which will be displayed on the list.
+- Edit Tasks: Users can modify any task using the edit option.
+- Delete Tasks: Tasks can be removed from the list.
+- Mark as Completed: Users can check off completed tasks.
+- Task Persistence: The list of tasks and user name is saved in the browser's localStorage, ensuring data persists across page reloads.
+- Track Progress: The app displays the total number of tasks and the number of completed tasks.
+- Name Storage: The app prompts the user to input their first name, which is also saved in localStorage.
 
-## Level 1: Todo App Basic Requirements
+# Technologies Used
+- HTML for structure
+- CSS for styling
+- JavaScript for functionality and DOM manipulation
+- LocalStorage for data persistence
 
-In this level, the application includes the following features:
+# How to Use
+Clone the repository or download the code.
 
-1. Adding a Todo:
+``` git clone https://github.com/your-username/todo-list-app.git```
+1. Set your name: Enter your first name and press "Submit."
 
-   - Display an input field where users can enter a new todo item.
-   - Include an "Add" button to add the entered todo item to the list.
+2. Add a task: Type a new task in the input box and hit the Add button.
 
-2. Rendering Todo List:
+3. Manage your tasks:
+     - Edit: Click the Edit button to modify a task.
+     - Delete: Remove a task by clicking the Delete button.
+     - Complete: Mark a task as complete by checking the box next to it.
 
-   - Render the list of todos on the screen.
-   - Each todo item should display a checkbox and the task description.
+4. Your tasks and name are saved automatically, so they’ll be there the next time you visit!
 
-3. Completing a Todo:
 
-   - When a checkbox is clicked, mark the corresponding todo item as complete.
-   - Visually indicate the completion status of each todo item.
-
-4. Deleting a Todo:
-   - Implement a "Delete" button next to each todo item.
-   - When the button is clicked, remove the corresponding todo item from the list.
-
-## Level 2: Todo App Additional Requirements
-
-In addition to the basic requirements, the application enhances its functionality with the following features:
-
-1. Editing a Todo:
-
-   - Implement an "Edit" button next to each todo item.
-   - When the button is clicked, allow users to update the task description of the corresponding todo.
-
-2. Todo Counter:
-
-   - Include a counter that displays the total number of todo items.
-   - Display the number of completed items as well.
-
-## Level 3: Todo App Bonus Requirements (Optional)
-
-If you finish the previous requirements before the deadline, you can tackle the following bonus tasks:
-
-1. Persistent Storage:
-   - Add the ability to persist todo items using local storage.
-   - Ensure that the list remains intact even after the page is refreshed.
-
-`Please note that the additional and bonus requirements are  optional and can be completed if you have additional time `
-
-**_DEADLINE THURSDAY 17/10/2014 at 5pm_**
-Happy coding!
+# Future Enhancements
+- Due Date for Tasks: Add the ability to assign due dates to tasks.
+- Task Categories: Implement categories or labels for organizing tasks.
+- Priority Levels: Add support for marking tasks with different priority levels (e.g., High, Medium, Low).
