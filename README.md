@@ -1,4 +1,4 @@
-# Todo List Application
+# Todo App
 This is a simple and interactive Todo List web application, where users can add, edit, delete, and mark tasks as completed. The app also remembers the user's name and tasks using localStorage, making the data persist even after refreshing the page.
 
 # Features
@@ -19,7 +19,7 @@ This is a simple and interactive Todo List web application, where users can add,
 # How to Use
 Clone the repository or download the code.
 
-``` git clone https://github.com/your-username/todo-list-app.git```
+``` git clone https://github.com/your-username/javascript-todo-app.git```
 1. Set your name: Enter your first name and press "Submit."
 
 2. Add a task: Type a new task in the input box and hit the Add button.
